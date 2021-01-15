@@ -1,4 +1,4 @@
 # Nikulsan-Assignment-
 
 
-This is the revised assignment folder 
+This is the revised assignment code
