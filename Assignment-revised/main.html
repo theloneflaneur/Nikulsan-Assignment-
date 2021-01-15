@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- google font api forPoppin-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">     
+
+        <!--Bootstrap CDN
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    -->
+        <!--Bootstrap local-->
+        <link rel="stylesheet" href="./static/bootstrap.min.css">
+        
+        <!-- stylesheet--> 
+        <link rel="stylesheet" href ="./static/stylesheet.css">
+
+        <!--jQuery script for pagination-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="./static/script.js"></script>
+        
+    </head>
+    <body>
+        
+        <div class  = "container-sm">
+            <div id = "achievement">
+                <div class = "fade-in badge-wrap">
+                <p class = "text-badge">Good</p>
+                </div>
+                <div class = "fade-in badge-wrap">
+                    <p class = "text-badge">Better</p>
+                </div>
+                <div class = "fade-in badge-wrap">
+                    <p class = "text-badge">Best</p>
+                </div>
+                <div class = "fade-in badge-wrap">
+                    <p class = "text-badge">Excellent</p> 
+                </div>
+                <div class = "fade-in badge-wrap">
+                    <p class = "text-badge">Outstanding</p>
+                </div>
+            </div>
+            <div id = "review-div">
+                <p>WHAT THEY SAY</p>
+            </div>
+            <div id= "layout-border"></div>
+            <div class= "text-container">
+                <!--<div class = "inline-text-container">-->
+                <div class="row justify-start">
+                    <div class = "col-sm-2 inline-text-container">
+                        <!--User Profile-->
+                        <div id = "user-profile">  
+                        </div>
+                        <!--Quote element-->
+                        <img id="quote-wrap" src="./static/images/quote.svg" >
+                    </div>
+
+
+                    <div class = "col-sm-9 block-container">
+                        <!--testimonial section-->
+                        
+                        <p class= "testimonial-text">
+                        Lorem ipsum dolorsitamet,consectetu radipis cingelit,seddoeius modtem porinc ididunt utlabore et
+                            doloremagna aliqua.Utenim adminim veniam.
+                        </p>
+                        <!--rating with the review and description-->
+                        <div class= "ratings">
+                            <img src="./static/images/stars.svg">
+                            <img src="./static/images/stars.svg">
+                            <img src="./static/images/stars.svg">
+                            <img src="./static/images/stars.svg">
+                        </div>
+                        <p class = "testimonial-text"><strong>Lorem</strong>,XYZ</p>
+                    </div>
+                </div>
+            </div>
+            <div id= "layout-border-bottom"></div>
+            <!--Pagination-->
+            <div class="pagination">
+                <a href="#" class="first">First</a>
+                <a href="#" class="previous">Previous</a>
+                <div class="pages">
+                    <a class="active" href="#">1</a>
+                    <a href="#">2</a>
+                </div>
+                <a href="#" class="next">Next</a>
+                <a href="#" class="last">Last</a>
+            </div>
+        </div>
+    
+    </body>
+</html>
+
